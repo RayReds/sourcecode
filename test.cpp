@@ -1,6 +1,23 @@
-#include<bits/stdc++.h>
-define ll long long
-using namepace std
-int main(){
-
+int jalanjalan(int kiri, int kanan)
+{
+    int energi = 0;
+    while (kiri < kanan)
+    {
+        if (kiri % 7 == 0)
+        {
+            kiri++;
+            energi++;
+        }
+        else if (kiri % 3 == 0)
+        {
+            kiri += 2;
+            energi += 2;
+        }
+        else
+        {
+            kiri += 3;
+            energi += 3;
+        }
+    }
+    return energi;
 }
