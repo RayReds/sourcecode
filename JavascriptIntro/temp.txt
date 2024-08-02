@@ -1,0 +1,28 @@
+let test = () => {
+    head.classList.remove("hello");
+    head.classList.add("pink")
+}
+
+let names = {
+    nama : ["Ray", "Tim", "Ariki"],
+
+    call : function(){
+        
+        setTimeout(()=>{
+             console.log(this.nama);
+        },3000);
+    }
+};
+let name = [1,2,3];
+let heading = document.querySelector("#test");
+let x = prompt(name.join(" - "));
+heading.textContent = x;
+let head = document.querySelector(".hello");
+if (x == "execute"){
+    names.call()
+}
+
+// function test(){
+//     head.classList.remove("hello");
+//     head.classList.add("pink");
+// }

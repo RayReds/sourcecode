@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Raymond/Coding",
-      "program": "d:/Raymond/Coding/build/Debug/outDebug",
+      "cwd": "d:/Raymond/Coding/regis/registration/templates",
+      "program": "d:/Raymond/Coding/regis/registration/templates/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

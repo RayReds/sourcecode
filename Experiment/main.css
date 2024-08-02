@@ -1,0 +1,42 @@
+.logo {
+    display:inline-block;
+    vertical-align: middle;
+    background: red;
+}
+.logo svg {
+    vertical-align: middle;
+}
+.logo h2 {
+    display:inline-block;
+}   
+
+.features {
+    vertical-align:bottom;
+    display:inline-block;
+    font-size: 20px;
+    background: red;
+}
+.text {
+    text-decoration: none;
+    color: rgb(26, 133, 255);
+}
+.home {
+    background-color: rgb(73, 166, 219);
+    color:white;
+}
+
+.primary{
+    background-color: #2bc7ff;
+    color:white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    vertical-align: middle;
+}

@@ -11,4 +11,4 @@ def members(request):
         'var' : "hello",
         'number' : 123,
     }
-    return HttpResponse(template.render(content, request))
+    return HttpResponse(template.render(content, request)) 
